@@ -1,0 +1,59 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit3H
+#define Unit3H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.ComCtrls.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.Imaging.pngimage.hpp>
+#include <Vcl.Buttons.hpp>
+#include <Data.DB.hpp>
+#include <Vcl.DBGrids.hpp>
+#include <Vcl.Grids.hpp>
+//---------------------------------------------------------------------------
+class TForm3 : public TForm
+{
+__published:	// IDE-managed Components
+	TPanel *Panel1;
+	TPanel *Panel2;
+	TPanel *Panel3;
+	TPageControl *PageControl1;
+	TTabSheet *TabSheet1;
+	TTabSheet *TabSheet2;
+	TTabSheet *TabSheet3;
+	TTabSheet *TabSheet4;
+	TTabSheet *TabSheet5;
+	TTabSheet *TabSheet6;
+	TTabSheet *TabSheet7;
+	TTabSheet *TabSheet8;
+	TTabSheet *TabSheet9;
+	TTabSheet *TabSheet10;
+	TTabSheet *TabSheet11;
+	TTabSheet *TabSheet12;
+	TPanel *Panel4;
+	TImage *Image1;
+	TLabel *Label1;
+	TEdit *Edit1;
+	TEdit *Edit2;
+	TSpeedButton *SpeedButton1;
+	TSpeedButton *SpeedButton2;
+	TPanel *Panel5;
+	TPanel *Panel6;
+	TSpeedButton *SpeedButton3;
+	TSpeedButton *SpeedButton4;
+	TDBGrid *DBGrid1;
+	void __fastcall SpeedButton1Click(TObject *Sender);
+	void __fastcall FormShow(TObject *Sender);
+	void __fastcall Panel6Resize(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm3(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm3 *Form3;
+//---------------------------------------------------------------------------
+#endif

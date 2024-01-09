@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>1899.12.30 00:00:00.000.502,=C:\Users\Derevlenco_V\Desktop\TAXI\Unit1.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.855,=C:\Users\Derevlenco_V\Documents\Embarcadero\Studio\Projects\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.663,C:\Users\Derevlenco_V\Desktop\TAXI\TAXIPCH1.h=C:\Users\Derevlenco_V\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.679,C:\Users\Derevlenco_V\Desktop\TAXI\Unit3.h=C:\Users\Derevlenco_V\Documents\Embarcadero\Studio\Projects\Unit3.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.839,=C:\Users\Derevlenco_V\Documents\Embarcadero\Studio\Projects\Project3PCH1.h</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.679,C:\Users\Derevlenco_V\Desktop\TAXI\Unit3.cpp=C:\Users\Derevlenco_V\Documents\Embarcadero\Studio\Projects\Unit3.cpp</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.182,C:\Users\Derevlenco_V\Desktop\TAXI\TAXI.cbproj=C:\Users\Derevlenco_V\Desktop\TAXI\TAXI.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.679,C:\Users\Derevlenco_V\Desktop\TAXI\TAXI.cbproj=C:\Users\Derevlenco_V\Documents\Embarcadero\Studio\Projects\Project3.cbproj</Transaction>
+    <Transaction>1899.12.30 00:00:00.000.679,C:\Users\Derevlenco_V\Desktop\TAXI\Unit3.dfm=C:\Users\Derevlenco_V\Documents\Embarcadero\Studio\Projects\Unit3.dfm</Transaction>
+  </Transactions>
+</BorlandProject>

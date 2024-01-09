@@ -1,0 +1,25 @@
+object DataModule1: TDataModule1
+  Height = 558
+  Width = 907
+  object FDConnection1: TFDConnection
+    Params.Strings = (
+      'DataSource=BDTAXI'
+      'DriverID=ODBC')
+    Connected = True
+    LoginPrompt = False
+    Left = 64
+    Top = 24
+  end
+  object FDQuery1: TFDQuery
+    Connection = FDConnection1
+    SQL.Strings = (
+      'SELECT * FROM OPERATOR')
+    Left = 176
+    Top = 24
+  end
+  object DataSource1: TDataSource
+    DataSet = FDQuery1
+    Left = 248
+    Top = 24
+  end
+end

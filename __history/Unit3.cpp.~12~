@@ -1,0 +1,63 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "Unit3.h"
+#include "Unit1.h"
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm3 *Form3;
+//---------------------------------------------------------------------------
+__fastcall TForm3::TForm3(TComponent* Owner)
+	: TForm(Owner)
+{
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm3::SpeedButton1Click(TObject *Sender)
+{
+ if((Edit1->Text=="1")&&(Edit2->Text=="1"))
+  {
+
+	DataModule1->FDQuery1->Close();
+	DataModule1->FDQuery1->Open();
+
+	TabSheet1->TabVisible=false;//autentificarea
+	TabSheet11->TabVisible=true;//comanda
+  }
+  else
+  {
+   Edit2->Clear();
+   ShowMessage("Autentificare esuata");
+  }
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm3::FormShow(TObject *Sender)
+{
+TabSheet2->TabVisible=false;
+TabSheet3->TabVisible=false;
+TabSheet4->TabVisible=false;
+TabSheet5->TabVisible=false;
+TabSheet6->TabVisible=false;
+TabSheet7->TabVisible=false;
+TabSheet8->TabVisible=false;
+TabSheet9->TabVisible=false;
+TabSheet10->TabVisible=false;
+TabSheet11->TabVisible=false;
+TabSheet12->TabVisible=false;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm3::Panel6Resize(TObject *Sender)
+{
+ int w=Panel6->Width;
+ int a=DBGrid1->Columns->Items[0]->Width+DBGrid1->Columns->Items[1]->Width+DBGrid1->Columns->Items[2]->Width;
+ DBGrid1->Columns->Items[3]->Width=w-a-50;
+}
+//---------------------------------------------------------------------------
+void __fastcall TForm3::SpeedButton4Click(TObject *Sender)
+{
+	DataModule1->FDQuery1->Close();
+	DataModule1->FDQuery1->Open();
+}
+//---------------------------------------------------------------------------

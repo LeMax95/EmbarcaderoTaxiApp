@@ -1,0 +1,130 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit3H
+#define Unit3H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.ComCtrls.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.Imaging.pngimage.hpp>
+#include <Vcl.Buttons.hpp>
+#include <Data.DB.hpp>
+#include <Vcl.DBGrids.hpp>
+#include <Vcl.Grids.hpp>
+//---------------------------------------------------------------------------
+class TForm3 : public TForm
+{
+__published:	// IDE-managed Components
+	TPanel *Panel1;
+	TPanel *Panel2;
+	TPanel *Panel3;
+	TPageControl *PageControl1;
+	TTabSheet *TabSheet1;
+	TTabSheet *TabSheet2;
+	TTabSheet *TabSheet3;
+	TTabSheet *TabSheet4;
+	TTabSheet *TabSheet5;
+	TTabSheet *TabSheet6;
+	TTabSheet *TabSheet7;
+	TTabSheet *TabSheet8;
+	TTabSheet *TabSheet9;
+	TTabSheet *TabSheet10;
+	TTabSheet *TabSheet11;
+	TTabSheet *TabSheet12;
+	TPanel *Panel4;
+	TImage *Image1;
+	TLabel *Label1;
+	TEdit *Edit1;
+	TEdit *Edit2;
+	TSpeedButton *SpeedButton1;
+	TSpeedButton *SpeedButton2;
+	TPanel *Panel5;
+	TPanel *Panel6;
+	TSpeedButton *SpeedButton3;
+	TSpeedButton *SpeedButton4;
+	TDBGrid *DBGrid1;
+	TPanel *Panel7;
+	TPanel *Panel8;
+	TSpeedButton *SpeedButton5;
+	TSpeedButton *SpeedButton6;
+	TDBGrid *DBGrid2;
+	TPanel *Panel9;
+	TPanel *Panel10;
+	TSpeedButton *SpeedButton7;
+	TSpeedButton *SpeedButton8;
+	TDBGrid *DBGrid3;
+	TPanel *Panel11;
+	TDBGrid *DBGrid4;
+	TPanel *Panel12;
+	TSpeedButton *SpeedButton9;
+	TSpeedButton *SpeedButton10;
+	TPanel *Panel13;
+	TDBGrid *DBGrid5;
+	TPanel *Panel14;
+	TSpeedButton *SpeedButton11;
+	TSpeedButton *SpeedButton12;
+	TPanel *Panel15;
+	TDBGrid *DBGrid6;
+	TPanel *Panel16;
+	TSpeedButton *SpeedButton13;
+	TSpeedButton *SpeedButton14;
+	TPanel *Panel17;
+	TPanel *Panel18;
+	TPageControl *PageControl2;
+	TTabSheet *TabSheet13;
+	TTabSheet *TabSheet14;
+	TTabSheet *TabSheet15;
+	TSpeedButton *SpeedButton15;
+	TSpeedButton *SpeedButton16;
+	TSpeedButton *SpeedButton17;
+	TSpeedButton *SpeedButton18;
+	TSpeedButton *SpeedButton19;
+	TEdit *Edit3;
+	TSpeedButton *SpeedButton20;
+	TEdit *Edit4;
+	TSpeedButton *SpeedButton21;
+	TEdit *Edit5;
+	TSpeedButton *SpeedButton22;
+	TEdit *Edit6;
+	TSpeedButton *SpeedButton23;
+	TEdit *Edit7;
+	TEdit *Edit8;
+	TComboBox *ComboBox1;
+	TSpeedButton *SpeedButton24;
+	TSpeedButton *SpeedButton25;
+	TEdit *Edit9;
+	TSpeedButton *SpeedButton26;
+	TEdit *Edit10;
+	TSpeedButton *SpeedButton27;
+	TEdit *Edit11;
+	TSpeedButton *SpeedButton28;
+	TEdit *Edit12;
+	TSpeedButton *SpeedButton29;
+	TEdit *Edit13;
+	TComboBox *ComboBox2;
+	TEdit *Edit14;
+	TSpeedButton *SpeedButton30;
+	TSpeedButton *SpeedButton31;
+	TDBGrid *DBGrid7;
+	TPanel *Panel19;
+	TDBGrid *DBGrid8;
+	TPanel *Panel20;
+	TSpeedButton *SpeedButton32;
+	TSpeedButton *SpeedButton33;
+	void __fastcall SpeedButton1Click(TObject *Sender);
+	void __fastcall FormShow(TObject *Sender);
+	void __fastcall Panel6Resize(TObject *Sender);
+	void __fastcall SpeedButton4Click(TObject *Sender);
+	void __fastcall SpeedButton20Click(TObject *Sender);
+	void __fastcall SpeedButton11Click(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm3(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm3 *Form3;
+//---------------------------------------------------------------------------
+#endif
