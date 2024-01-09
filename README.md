@@ -13,9 +13,6 @@ It's specialized CRUD application. Designed for the taxi service industry, this 
 - **Built-in Address Search:** Utilize the integrated search feature to find any address quickly, streamlining the order creation process.
 - **Operator-Centric Functionality:** Empower operators with the ability to retrieve and manage orders placed by specific operators, facilitating personalized workflow management. 
 
-## Functionality
-
-The application offers a dynamic and visually pleasing interface, allowing users to perform various tasks related to student and user management effortlessly. With a secure login system and real-time database interaction, it provides a reliable solution for educational institutions and organizations.
 
 ## User Interface
 
